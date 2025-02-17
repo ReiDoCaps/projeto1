@@ -1,0 +1,66 @@
+/* Estilo para os formulários de login e cadastro de usuários */
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+.btn-primary {
+    background-color: #0f3c91;
+    border-color: #0f3c91;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0c2e70;
+    border-color: #0c2e70;
+}
+
+.d-grid {
+    margin-top: 20px;
+}
+
+.cadastrar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cadastrar h4 {
+    font-size: 18px;
+}
+
+.cadastrar a {
+    color: #0f3c91;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.cadastrar a:hover {
+    color: #0c2e70;
+}

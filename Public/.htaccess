@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Verifica se o arquivo ou diretório existe
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redireciona todas as requisições para index.php
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+    # Define o timezone padrão
+    SetEnv TZ America/Sao_Paulo
+
+    # Configurações de Segurança
+    <Files .htaccess>
+        Order Allow,Deny
+        Deny from all
+    </Files>
+
+    # Desabilita a listagem de diretórios
+    Options -Indexes
+
+    # Habilita a compressão de conteúdo
+    <IfModule mod_deflate.c>
+        AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+    </IfModule>
+</IfModule>

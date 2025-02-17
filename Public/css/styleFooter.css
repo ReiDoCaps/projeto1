@@ -1,0 +1,93 @@
+/* Estilo do footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-container section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-container h4 {
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-container p,
+.footer-container ul,
+.footer-container form {
+    font-size: 14px;
+}
+
+.footer-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-container ul li {
+    margin-bottom: 5px;
+}
+
+.footer-container ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-container ul li a:hover {
+    color: #0f3c91;
+}
+
+.footer-social a {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #0f3c91;
+}
+
+.footer-newsletter form {
+    display: flex;
+}
+
+.footer-newsletter input {
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.footer-newsletter button {
+    padding: 5px 10px;
+    background-color: #0f3c91;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer-newsletter button:hover {
+    background-color: #0c2e70;
+}
+
+.footer-credits {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #666;
+}

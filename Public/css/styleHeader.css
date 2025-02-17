@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .interface {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .txt-itens a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  header .btn-contato button,
+  .hero-site button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  /*Estilo do header*/
+  header {
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+  }
+  
+  header.rolar {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 0 8px #00000061;
+  }
+  
+  header.rolar .menu-desktop nav ul li a {
+    color: #000;
+  }
+  
+  header.rolar .btn-contato button {
+    border: 1px solid #000;
+    color: #000;
+  }
+  
+  header.rolar .btn-contato button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header.rolar .logo a {
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #0f3c91;
+  }
+  
+  header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo img {
+    max-width: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  header .logo a {
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+  }
+  /* dinamic */
+  header .menu-desktop nav ul {
+    list-style-type: none;
+  }
+  
+  header .menu-desktop nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+  }
+  
+  header .menu-desktop nav ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  .menu-desktop nav a:hover {
+    transform: scale(1.05);
+  }
+  header .btn-contato button {
+    width: 140px;
+    height: 30px;
+  }
+  
+  .btn-contato button:hover,
+  .hero-site button:hover {
+    background-color: #fff;
+    color: black;
+  }
+  

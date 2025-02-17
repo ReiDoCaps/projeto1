@@ -1,0 +1,86 @@
+/* Estilo para a página principal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.txt-itens a {
+    text-decoration: none;
+    color: #000;
+}
+section.hero-site {
+    height: 98vh;
+    background-image: url(../imgs/ifro.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.hero-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.hero-site .txt-hero {
+    height: 70%;
+}
+.hero-site .txt-hero h1 {
+    font-size: 4em;
+    line-height: 80px;
+    font-weight: 200;
+}
+.hero-site .txt-hero h1 span {
+    display: block;
+    font-weight: 600;
+}
+.hero-site .txt-hero p {
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.hero-site .txt-hero p span {
+    display: block;
+}
+section.vantagens {
+    padding: 80px 0;
+}
+.vantagens .itens-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+.vantagens .itens-conteiner .img-itens img {
+    max-width: 480px;
+    max-height: 480px;
+}
+.vantagens .itens-conteiner:nth-child(odd) .img-itens {
+    order: 1;
+}
+.vantagens .itens-conteiner:nth-child(odd) .txt-itens {
+    order: 2;
+}
+.vantagens .itens-conteiner:nth-child(even) .img-itens {
+    order: 2;
+}
+.vantagens .itens-conteiner:nth-child(even) .txt-itens {
+    order: 1;
+}
+.vantagens .itens-conteiner .img-itens img {
+    max-width: 100%;
+    height: auto;
+}
+.vantagens .itens-conteiner .txt-itens h3 {
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.itens-conteiner .txt-itens h3 span {
+    font-weight: 300;
+}
